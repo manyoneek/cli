@@ -1,0 +1,4 @@
+298e3c6 Honor --profile in profiles show and list
+ internal/cli/profile_precedence_test.go | 67 +++++++++++++++++++++++++++++++++
+ internal/cli/profiles.go                |  4 +-
+ 2 files changed, 69 insertions(+), 2 deletions(-)

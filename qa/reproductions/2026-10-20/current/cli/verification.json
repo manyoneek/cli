@@ -1,0 +1,13 @@
+{
+  "upstream": "836cf0db60310262cb57acf8619ea9a3797ce4e9",
+  "results": [
+    {
+      "stage": "before",
+      "exit": 1
+    },
+    {
+      "stage": "fixed",
+      "exit": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "RC-CLI-20261016-001",
+  "repository": "RevenueCat/cli",
+  "commit": "9abca4255e10446336d4276ba873b08c2691bbd8",
+  "pullRequest": "https://github.com/RevenueCat/cli/pull/5",
+  "mergedDate": "2026-07-29",
+  "firstStableSourceTag": "v0.1.0",
+  "classification": "Present since the profile inspection commands were introduced.",
+  "evidence": "Commit `9abca4255e10446336d4276ba873b08c2691bbd8` (2026-05-15) created both handlers while discarding the global profile flag. It entered the default branch through foundation PR #5 on 2026-07-29 (merge `9ecfe4a493a07f56f70aefbb03e1b6aa88b25c96`). A binary built from the introducing commit reproduces both failures; all four controls pass. The parent lacked these commands.",
+  "limitations": "Actual historical CLI binary and disposable credential-free local profiles. No backend calls. First stable source tag is identified from Git, not a downloaded release binary.",
+  "investigatedAt": "2026-10-17",
+  "evidenceDirectory": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/history/2026-10-17"
+}

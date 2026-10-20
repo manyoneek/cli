@@ -1,0 +1,43 @@
+ACTUAL CLI EXECUTION · macOS arm64 · no mobile app or backend
+--profile is ignored by profile inspection commands
+
+Disposable profiles: saved active = qa-base; flag selects qa-chosen. No credentials or service calls.
+
+Run original CLIRun temporary fixORIGINAL IMPLEMENTATION
+$ rc profiles show --profile qa-chosen --json
+{
+  "data": {
+    "api_key": "",
+    "base_url": "",
+    "profile": "qa-base",
+    "project_id": "proj_local_base"
+  },
+  "schema_version": 1
+}
+FAIL · profile: expected qa-chosen, got qa-base · exit 0
+$ rc profiles list --profile qa-chosen --json
+{
+  "data": {
+    "active": "qa-base",
+    "profiles": [
+      "qa-base",
+      "qa-chosen"
+    ]
+  },
+  "schema_version": 1
+}
+FAIL · active: expected qa-chosen, got qa-base · exit 0
+$ rc profiles show qa-chosen --json
+{
+  "data": {
+    "api_key": "",
+    "base_url": "",
+    "profile": "qa-chosen",
+    "project_id": "proj_local_chosen"
+  },
+  "schema_version": 1
+}
+PASS · profile: expected qa-chosen, got qa-chosen · exit 0
+All six real command checks finished. Saved active profile unchanged.
+4 passed / 2 failed
+Source pinned in accompanying README. Commands, stdout, exit codes, binary hashes, and all six checks are preserved in JSON logs.
