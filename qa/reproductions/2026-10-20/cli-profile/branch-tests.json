@@ -1,0 +1,69 @@
+[
+  {
+    "label": "regression-before",
+    "command": [
+      "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+      "test",
+      "./internal/cli",
+      "-run",
+      "TestQAProfilePrecedence",
+      "-count=1"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/cli-profile",
+    "exit": 1,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/cli-profile-regression-before.log",
+    "seconds": 8.92
+  },
+  {
+    "label": "regression-after",
+    "command": [
+      "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+      "test",
+      "./internal/cli",
+      "-run",
+      "TestQAProfilePrecedence",
+      "-count=1"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/cli-profile",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/cli-profile-regression-after.log",
+    "seconds": 2.83
+  },
+  {
+    "label": "full-after",
+    "command": [
+      "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+      "test",
+      "./internal/cli",
+      "-count=1"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/cli-profile",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/cli-profile-full-after.log",
+    "seconds": 1.96
+  },
+  {
+    "label": "vet",
+    "command": [
+      "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+      "vet",
+      "./internal/cli"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/cli-profile",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/cli-profile-vet.log",
+    "seconds": 3.47
+  },
+  {
+    "label": "format",
+    "command": [
+      "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/gofmt",
+      "-w",
+      "internal/cli/profile_precedence_test.go"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/cli-profile",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/cli-profile-format.log",
+    "seconds": 0.05
+  }
+]

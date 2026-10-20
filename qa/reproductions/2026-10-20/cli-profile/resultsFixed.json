@@ -1,0 +1,80 @@
+{
+  "binarySHA256": "a8d584b818eb634345edf8a9cdd7ff5a2849103ccfe2abb7b449ca743f7a66e7",
+  "cases": [
+    {
+      "name": "show_flag",
+      "command": "rc profiles show --profile qa-chosen --json",
+      "field": "profile",
+      "expected": "qa-chosen",
+      "exit": 0,
+      "stdout": "{\n  \"data\": {\n    \"api_key\": \"\",\n    \"base_url\": \"\",\n    \"profile\": \"qa-chosen\",\n    \"project_id\": \"proj_local_chosen\"\n  },\n  \"schema_version\": 1\n}\n",
+      "stderr": "",
+      "actual": "qa-chosen",
+      "savedProfileUnchanged": true,
+      "passed": true
+    },
+    {
+      "name": "list_flag",
+      "command": "rc profiles list --profile qa-chosen --json",
+      "field": "active",
+      "expected": "qa-chosen",
+      "exit": 0,
+      "stdout": "{\n  \"data\": {\n    \"active\": \"qa-chosen\",\n    \"profiles\": [\n      \"qa-base\",\n      \"qa-chosen\"\n    ]\n  },\n  \"schema_version\": 1\n}\n",
+      "stderr": "",
+      "actual": "qa-chosen",
+      "savedProfileUnchanged": true,
+      "passed": true
+    },
+    {
+      "name": "show_positional_control",
+      "command": "rc profiles show qa-chosen --json",
+      "field": "profile",
+      "expected": "qa-chosen",
+      "exit": 0,
+      "stdout": "{\n  \"data\": {\n    \"api_key\": \"\",\n    \"base_url\": \"\",\n    \"profile\": \"qa-chosen\",\n    \"project_id\": \"proj_local_chosen\"\n  },\n  \"schema_version\": 1\n}\n",
+      "stderr": "",
+      "actual": "qa-chosen",
+      "savedProfileUnchanged": true,
+      "passed": true
+    },
+    {
+      "name": "show_active_control",
+      "command": "rc profiles show --json",
+      "field": "profile",
+      "expected": "qa-base",
+      "exit": 0,
+      "stdout": "{\n  \"data\": {\n    \"api_key\": \"\",\n    \"base_url\": \"\",\n    \"profile\": \"qa-base\",\n    \"project_id\": \"proj_local_base\"\n  },\n  \"schema_version\": 1\n}\n",
+      "stderr": "",
+      "actual": "qa-base",
+      "savedProfileUnchanged": true,
+      "passed": true
+    },
+    {
+      "name": "list_active_control",
+      "command": "rc profiles list --json",
+      "field": "active",
+      "expected": "qa-base",
+      "exit": 0,
+      "stdout": "{\n  \"data\": {\n    \"active\": \"qa-base\",\n    \"profiles\": [\n      \"qa-base\",\n      \"qa-chosen\"\n    ]\n  },\n  \"schema_version\": 1\n}\n",
+      "stderr": "",
+      "actual": "qa-base",
+      "savedProfileUnchanged": true,
+      "passed": true
+    },
+    {
+      "name": "positional_overrides_flag_control",
+      "command": "rc profiles show qa-base --profile qa-chosen --json",
+      "field": "profile",
+      "expected": "qa-base",
+      "exit": 0,
+      "stdout": "{\n  \"data\": {\n    \"api_key\": \"\",\n    \"base_url\": \"\",\n    \"profile\": \"qa-base\",\n    \"project_id\": \"proj_local_base\"\n  },\n  \"schema_version\": 1\n}\n",
+      "stderr": "",
+      "actual": "qa-base",
+      "savedProfileUnchanged": true,
+      "passed": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "scope": "actual CLI commands; synthetic local profiles; no HTTP transport or response fixtures"
+}

@@ -1,0 +1,20 @@
+{
+  "cli-profile-reproduction-2026-10-16.zip": "93be192fe2ced9be6569116f231407e02855ce25aa51d351fca19dbda9c8d764",
+  "README.md": "1d3026d4cca659c89a1f288bd08b8033e08b289a411085feef875a275ffc0fdb",
+  "cli-profile/resultsFixed.json": "5e43a14ce0d7455af4f99ab9d1db104f5a5a2ace2b3d7d2bf37e1794a9128955",
+  "cli-profile/original-report.md": "c3f69bb4d353a452aa4931ddac14bbce3d6949b6d8ac280e627c16699bccbdf1",
+  "cli-profile/screenshot.png": "db579a1faf49032251558bcd0a99ef51198504ad9f00fac6ba9a553126a9ae01",
+  "cli-profile/suggested-fix.patch": "89d514985ac7425549da2626e4e15493f1ed803fff94fd83c6270be6131fe247",
+  "cli-profile/fixedVideo.mp4": "55bba1a93089b6ae59fbf382e8cabf75efec464a2b77611f67c579ac57849e15",
+  "cli-profile/cli-profile-full-after.log": "f3bc5d5f44235e41cff9e73f7ec1e7596247870d3ff986781d07c7404ebfd8ac",
+  "cli-profile/video.mp4": "a7126aa2b5511f4f384fb5dd27a132ced2f6f23de7b77549ea9610c23a5b2e3d",
+  "cli-profile/branch-tests.json": "84c5f138e97f572537dc19b9ed0c7a23faf561d2da4c0d9bedba18797e0a52a1",
+  "cli-profile/resultsBefore.json": "2852b605e07b4e13516c126ffe767db8bedc54ccfe6eaf88fd38be978356aef8",
+  "cli-profile/publication-source.json": "f1db85de52685b4a0f93197f414d558993cca1231bd9f91151bdc426b1119f0e",
+  "cli-profile/cli-profile-vet.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cli-profile/cli-profile-format.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cli-profile/fixedScreenshot.png": "6d17da528c0ff71bf9e751d9a3ebde53cf9688425752eff10e6af1149eef462d",
+  "cli-profile/introduction-history.json": "d7b6f341a7c9e0cfaace7a7d2c83fb5bb4dbdea17e929d44fe55c0397b5e1456",
+  "cli-profile/cli-profile-regression-before.log": "2daa2a1ea4f19517026b0405802c68e92c5a45b42cbc916bba56fbfafef73d64",
+  "cli-profile/cli-profile-regression-after.log": "39828badd07a52b2f89a257fb2b10b9e91753c5fceabe772ba0191ed5748e655"
+}
