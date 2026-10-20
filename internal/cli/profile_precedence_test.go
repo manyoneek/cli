@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestQAProfilePrecedence(t *testing.T) {
+func TestProfilesRespectProfileFlag(t *testing.T) {
 	cases := []struct {
 		name     string
 		args     []string
