@@ -1,0 +1,13 @@
+{
+  "command": [
+    "corepack",
+    "pnpm",
+    "run",
+    "test:typecheck"
+  ],
+  "cwd": "runs/2026-10-22/worktrees/purchases-js",
+  "exit": 0,
+  "timedOut": false,
+  "seconds": 1.58,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/js-test-types-final.log"
+}

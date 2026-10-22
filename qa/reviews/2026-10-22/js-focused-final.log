@@ -1,0 +1,10 @@
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/worktrees/purchases-js[39m
+
+ [32m✓[39m src/tests/offering-view-consistency.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m16 passed[39m[22m[90m (16)[39m
+[2m   Start at [22m 06:12:29
+[2m   Duration [22m 464ms[2m (transform 82ms, setup 14ms, import 113ms, tests 12ms, environment 228ms)[22m
+

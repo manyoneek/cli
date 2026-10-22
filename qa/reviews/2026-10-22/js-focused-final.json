@@ -1,0 +1,15 @@
+{
+  "command": [
+    "corepack",
+    "pnpm",
+    "exec",
+    "vitest",
+    "run",
+    "src/tests/offering-view-consistency.test.ts"
+  ],
+  "cwd": "runs/2026-10-22/worktrees/purchases-js",
+  "exit": 0,
+  "timedOut": false,
+  "seconds": 1.11,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/js-focused-final.log"
+}

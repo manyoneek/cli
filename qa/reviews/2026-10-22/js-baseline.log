@@ -1,0 +1,234 @@
+
+> @revenuecat/purchases-js@1.72.0 test /Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/worktrees/purchases-js
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/worktrees/purchases-js[39m
+
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:124:21 This reference only captures the initial value of `customerEmail`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:124:51 This reference only captures the initial value of `customerEmail`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:125:46 This reference only captures the initial value of `customerEmail`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:127:39 This reference only captures the initial value of `rcPackage`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:143:33 This reference only captures the initial value of `discountCode`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:174:4 This reference only captures the initial value of `customTranslations`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:175:4 This reference only captures the initial value of `selectedLocale`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:176:4 This reference only captures the initial value of `defaultLocale`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:180:4 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:215:38 This reference only captures the initial value of `eventsTracker`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:219:11 This reference only captures the initial value of `purchases`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui.svelte:220:8 This reference only captures the initial value of `purchases`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+ [32m✓[39m src/tests/helpers/paywall-variables-helper.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m src/tests/stripe/stripe-service.test.ts [2m([22m[2m45 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui-inner.svelte:109:4 This reference only captures the initial value of `productDetails`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui-inner.svelte:110:4 This reference only captures the initial value of `purchaseOptionToUse`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/purchases-ui-inner.svelte:114:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:141:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:142:7 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:147:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:147:53 This reference only captures the initial value of `initialPrice`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:150:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:153:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:156:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:157:6 This reference only captures the initial value of `initialPrice`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:160:4 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:160:50 This reference only captures the initial value of `initialPrice`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:162:32 This reference only captures the initial value of `defaultPriceBreakdown`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:176:4 This reference only captures the initial value of `gatewayParams`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:182:41 This reference only captures the initial value of `customerEmail`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:183:31 This reference only captures the initial value of `customerEmail`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/pages/stripe-payment-entry-page.svelte:192:29 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/atoms/icon.svelte:48:29 This reference only captures the initial value of `name`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/atoms/icon.svelte:52:6 This reference only captures the initial value of `name`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/atoms/icon.svelte:53:22 This reference only captures the initial value of `name`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/paddle-purchases-ui.svelte:89:4 This reference only captures the initial value of `customTranslations`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/paddle-purchases-ui.svelte:90:4 This reference only captures the initial value of `selectedLocale`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/paddle-purchases-ui.svelte:91:4 This reference only captures the initial value of `defaultLocale`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/paddle-purchases-ui.svelte:95:4 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/paddle-purchases-ui.svelte:99:38 This reference only captures the initial value of `eventsTracker`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:26 AM [vite-plugin-svelte] src/ui/paddle-purchases-ui.svelte:132:4 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/molecules/payment-button.svelte:40:22 This reference only captures the initial value of `subscriptionOption`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/molecules/stripe-elements.svelte:99:29 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/molecules/stripe-elements.svelte:113:46 This reference only captures the initial value of `skipEmail`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/molecules/stripe-elements.svelte:115:30 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/paddle-inline-checkout-page.svelte:58:18 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/layout/section-layout.svelte:12:31 This reference only captures the initial value of `location`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/organisms/paddle-order-summary.svelte:45:26 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/molecules/back-button.svelte:7:8 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+6:05:27 AM [vite-plugin-svelte] src/ui/stripe-checkout-purchases-ui.svelte:97:32 This reference only captures the initial value of `rcPackage`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/stripe-checkout-purchases-ui.svelte:99:4 This reference only captures the initial value of `customTranslations`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/stripe-checkout-purchases-ui.svelte:100:4 This reference only captures the initial value of `selectedLocale`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/stripe-checkout-purchases-ui.svelte:101:4 This reference only captures the initial value of `defaultLocale`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/stripe-checkout-purchases-ui.svelte:105:38 This reference only captures the initial value of `eventsTracker`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/stripe-checkout-purchases-ui.svelte:108:4 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/express-purchase-button/express-purchase-button.svelte:64:33 This reference only captures the initial value of `translator`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+6:05:27 AM [vite-plugin-svelte] src/ui/express-purchase-button/express-purchase-button.svelte:66:4 This reference only captures the initial value of `brandingInfo`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally
+[90mstdout[2m | src/tests/ui/paddle-purchases-ui.test.ts[2m > [22m[2mPaddlePurchasesUI[2m > [22m[2mcalls unmountPaddlePurchaseUi when the button is clicked on the error page
+[22m[39mOpen this URL in your browser
+
+https://testing-playground.com/#markup=DwEwlgbgBGILwCICGAHFCB8wD04JbywEIBaMk48i0SKAYwBskBnZxAJzoCMSBXMEnQD2AOwAuSMCICm7KMwjSGY6SQCMADhAgUYgAxQAZrwYNmddtOkiE8sQE8G0xGU4kVADzEkAFtKTgIgDmAEweDCQg0swA1mJCKABcUCJC7AC2SAwpaZnZAGx6BgDM+Sge2GrFegCkUCSoKE4kzPbMKukANFAAQgxSMQCySHQAym0dAGKiYt1IiiJgcjJecwtL3czSQULSUPzdfgyKYmB0SCnSvNKHSidnSN0AwkjiSJam3QCqXLzivN12EIuEJ4t1UmCoO8wFlNq9mC1ZGBDABueokNyebx+AJSULhEjpYFgJzJVIZLI5CkFIpQEIacqVap1BpoZqtdrSLq9foiIYjcac9LTcRraxLS6rKHrdibba7fZgW7HaSnc6Xa7K+7nZ6vCQfBjfX7-QHA0FCcHmubsGGG+TwxE21HozHSLy+fyBfERLjsV5RECRaJxBJk3KU8l5KCFEplCpVWr1RrsiZc7p9AbDMap4UzMWLZZu2bS8Wy+TyvYHKBHbUXGSa6t3VUPXVvA1Gv5iAFQIEgyEQi1Qm2w+0iBFbJ1o1x0dxFj244JhH1+kQBwnE0lUqORykxukM+PMpNs1Qcjrp3n87NCkXF+alyV3mVynaVpWNlVqutXG4f2ut-UlDtH5O27XsrRySFoRHZgHQnZEpwxGcsXnL0lyDWJ4hQEhDBmFowAAL2kZJSnKRDXXdHE0IJIkuBJVRcPEfCiOSekyJdZC5yovEAA0IiiTDQy3CNwxpEoQkZBMWWTU8cwvTMBRzW98wlFYn1LF8FSrGtm3Vetfx0r8APeICOxNHszX7CDoLtWCx0dBCONnSjPV4iJaPosNqWEsS6QAFkko9WSaWShXkvks0FKY8xLAtHxUsstlfRUtV078G0MlsoBeNtTKgEDzPAqyoOHWy4KRZ1p2c7FXOCPiSF9f1pEDASQySHyOr3YoJMPRNgpTMKeQU69otFWLVKLBLNLfVKvw1AymyM7K9RMz58uNLtTT7QcB2tW04Xs+DKqQ6rULchqVzXDzNx3bJbujWkQgC3rpJPFo5KGiLFJvGL7zitSpvLZLtMWh55tmrKcsAtaCs2iztstEr9tHccKvIziXIXIJ6tarCcLw5hCOIqBuvYqqUO4ur3I3BiCaJ1jnvR07KaCAAZIIMLarzt1Eh6DCewK+pk97BozL6Rq5ZTxsLKU-o2IGtPfTK9J-CGdWW3KYY2sDLJ26zSoO1HJycinarZjnruJ+77r3EI9EF16QpF89PqvKLJd+mV4ul6aUr-NLwf9paodW4Dta2iDdqHZG7KNxzya4s32YupqWuDLDuZE7zbeepkhbes801dyKlM9h8AZ9hWZqDsH9LVx4NehsPQIj4rBxsw2HOOiiaqx5PGtXZr1zom7eZtx77Ze48ncL7kxbd0uxrlmX1ILX2Qc-WvVZr9WQ-bdaW-hyP9Zj8rjYTzGvWT3GEnxpjCZY-yyZO02+4tmm7+8B-ibt5+e7O4Igw06CXatbXmABWWkmhJJ+XzjPD688S4-SXl7Cuy915K1BirDKWCG57zyrDHWCNILtwNijLuTNX5eiAcPTyHV7qQIMGoOMlRYGOwGi7RB31RqrwmrLZ8Vc-bK3SgtTeu8Vr70Ia3PWSMYJn3ji-ROWMaEDzXDfUBY8IFQIPKwuBHCi5cIlrmFB5dJqVySoreugdhHGUkeHI+bc9pyMOmjE2SjqGBlUUPS2mc7paKYSwtQbDp76LnpeJBPCEre3QYIjetZrG4NsQQ+xRUZGkNPi48+ijL54hoeoz+zFibQI8JQ9xuTAyWwKd-ZIzC-4Y28CCEA9gegsFUOo3xHVYEBJgXo0KnDwncI9iY-6ZiYkWOrsIhJYi8ESOSYfVJiN0nOLjt3epDUhBNJaVsWho9vL3S6VAWp8Zgn9T6QYgZRipbL2iQI8ZQjcFTP-I3UOZk4YLJIU4sqmSFH-0ac01pKdB7AK5vQ3mByjm6PYWcsJw13bGN4SvQGdy4kBzrjvGZmtm6FV1osz5ncjqlPdH8rZqgvEVJph0-ZUDAknOFrPcKC9kEIpuRpWJmDpmPLSkkrW8ycUfOjssihbiiUbP+ds-JjEv700OXGQlDTRUkp2bTe+0qjlyvWU00YeR+LpyEmA7y4Lc5BN6c7c5sLF7MrQbcis9yOVopsc8uxvLiFRw7uQglwr5Wau1UqylYKoFGtpQXBBFy4VXNQaM61wN2XxPtYkx1czsUupPoKj1F8vX2C1VkZcqdOYZ1BQagNPSoWmpheLMNZcRn8NZcimNqLt4OvwTypNx9ZFfJWeqv5WbTCAquhSgtUZDXFpCdChlEShmWsjTWm1KK5pxumdyrFby+WurIbHIV6aNWZp9RKumj8gl1NOl2n1lTJWFJqYzT1JAmBcCUD0XgYh4giDzXqzR2dqXDtOaWsdgz4VRKtdO6NVj51PKbUuohralnto3dk7wN670Pqfb6gdu4P3HJNfS4uv7w2mOrWvNlwGG3xrA68iDjiBXQbTbB69SBb0MHvY+0Qvah7tJQ75CFxqS2YcMRW4ZfCEUYMIzghdCbm3LuTW2-FrjN3wfo4hpjZLkP6qjHuDjQb4Gi1DRa-9U78O1qE6I0DsyxNkbSXi910nqOyYY0h3dKr92yqvdZ+Tz7T17qKY5mTtGlAABFpCGCQCYbwrHlOUiHehrjIbzVMp03h+W+n0WcuDsZ8D0jcUUak1k-+sm-MBaC0pt9g6i0RZHd+rDlzK38aRTOutc6iMiZIwfFt5G3Xrqo9l7zDBcuBeUMx4F+bQvZHC5C0r3GtMxeliyvTNWDP10XaRtL-LWvyNWadHL-mesNMut4-tg2oDDc46NqL5btOTYA9NoDiWQNctE6lhxZmMsWay2s9beXet2alfuy9Xm6Pdfy25+zRTvvUfOLoMAog-vvd1RovZ-qmE9RG1+sb0XIlnd0-FmbV36tGcxQt+76XlvfNWyhUHpwIcbf+7twrYWoEI8O0j47jLUfXPOxjy7kzrvJdx018TkHzNtcs--Un4ORCQ627mkL1Ohu08-XSxn46-1o7i4lTHHPsc3ca1I-HS210rfVcL8nb3xdAoK7Dwt8PZfBs0yjidsWBMEax8JnHTc8fvNXRkjtV6Dei4p1DkBVTVU9X16gMnPujdKoD-uoPXuQ8i9ZgMF9MOebm8OXT9ToSf0Vb44i8xquHmc8hil13K6U2UcF2s738e+Sm+T0Vi3JWGfW5OxNln6OVfs-z+rrnLueemYJ7ronweweiCrzEPrie-Up7UGnjD8vsOVZz2MvPdqu+F+51rt3pfMs-Ir7HkfCfFM+LY-tmXDe5dN6Z7bpX9uEtq6dxrovvfFvu9TeX06leE8ffPanw9JO98iFHwjzPWqR-xKScmYBQBGDxBICEAfVkAAAUAgvQAAVW+I-PQAAOhCHAUsHSCZggKgOCBgLgPYEQO0DxFQOwlY0YCQHSBQAAAo1BcDugNAMC-I-IIAAB3boAAdgwJwK5AAEp8DIC6BoDYCVBSCkDoCj8aC6DGCMDihp8BDuRwEMD8guDug1B+DcDhDwDRDxCSCyCvQJ96AmB5DihmDow2CODuD9sdChCRDCCOYghUBu1qYR5iZMDsDcCnCxCiDXCUB3DTDMCVC-DoDAjBhmowBeB0hkNQjfD9DnCSBIjojYiQiMCeCwikj-CXDUBWZ3gghVB0DMjsiqoCDciUj8jCi2localEjyiDCAjUAeICj2AijkMmCuRwjmiUBWiajTCQgGiToKiIiWj+j2jij+1tCfDuicixi+iJiOjWMQgsCyiRimi8jFilipjPDWI1jhi3BRjeieJTi2jli6ioB1ijjNiSApAUAH0AAJaQMAIIHwbwI-SwuYxo5I+4p4l4t44LS4r4vAzAYAUgcgSgSEmgaAGg1gDgbgPgAQOyEAEEDwBqV4GQOQBQJQFQBqTgzgiAMQPyWwdoRwZwBAKqYQBgNIEgWQIEdgZIAAYh6D0DUB4LUEmCZmpNpM4PeEWGCGZMMD8mkAAE4OTuShAaT2B8Y6BeBmBmS1AgkNAegNBJTpSGg6A6BrAxBmSeD8h9T9T1TaSUAbRMh2B7BmTwF9SngfMehjSZTTSwBzT7BfAhBFBGSewgguAkB6CNAeCtC9ANBugQg1BRTugMCNA9CqSpSTSzT3hXTTTogtgQBkh2ifS-SAzDkgyQywyIzRToyToeTHT4yLTqohTDBKzKyHSSBOCfAwAVAKyqzVtiyUjLBXSUIQB3gYg0zvTfS9BOgByBy1BCy3BWygh2y1tXj3jeyMyhzBzBzMjRyZxxzJz+BIhuzZz+yFyhzFDlzBBYyZSJzpBXT1z+hAStz6D5zdyRyay-iGkRgYgJzYDVxkg6yGzpAayfS6AnygQ-hUyoAmTmzqzwCfBUBVB7z1l2AogZS-RwB5TkhgcjiwKUAIKRAHiGkXMoKYKMRcQEKoADwUQwS8AzCWA2AEBOAeAUS0SMSRAsSWhRDZB5BFBlBSUCSiSSSsBcBIAMAoAYTSL4SKLETqKhB0SfS6LZB3AGzmhOC-Q0AmKcTWL8TCTiSwSCCRABLyLKL3B7AUAhAJzUAfB7AexESHA9KDKUAjLBB-8gwjcoBmLcTVB7AQgABHUUiAIQNSyAjSuErS4S-0GirEBypSrgdi1SjAUYAAQQADk7SAB5HiHAdSqEsgLi5K8EqgLiwgPiki3yhEqigK0S2i+ikYUPBEWSxoBSlivE0KlSkkuwcklwBodgIETgnCEkCIYs5ILgJgH8sEiE1Kvi34RjHypgQS7SxgIQbZYap9YKvEjQFy44XgNQWwLsiQWcdoWARASa6alzNSiAIIKATg2AMQHwRAO2WwPwacsQc6vQWwCAMAaQTgnoUSxAAwfmPyfyWwQwDqxAVIGQWwDwdIBgMcRAd4sQJIbAbAAkzgjAzg4oDAtIIIbAO2IobABQIIMEyA06qAeABAQYMM6wvyNQVmdk-g0Uq40mkIbM8m1mfINgtQSm8BImkmtQUIim6fVmZmsm8BUUumhmw5Pm6fQ5BG4m0mvg3mwW0mjmiWoW0Wxmzmwm+m4mgALVsDyuQBaqEDap+tMDmtUDUFNJcp8A8F4G+o6pgIMIcDesyLBOwGxp8DSoOpSuoGwBmtEBdqyp4pwEIAyshJytoA1u0uMFMHMEsGsFrLktQuxOqtPBiF4AIkIlJIcCcCarHMPLpK1s9JZLZI5K5KclbL5PYAFKCCFJFPFLUBrNwjlIVMAqVL8hVLVILozpGG1PED1INM7prKdJdKtJtLtO7tLNdJ8HdNkEvP9MDODLpDzKgEjP3NbJ7oTJICTNYGanHqzLZqntDPDNnoLMHudKXqxCbKrJrPfMbMAuApbIzuPI7LnC7PYB7K9LnJ3M6FvObo1JvqnIvKfu3OvKXJrM-vXPvsfvTN-p3L3IAbXIEHPJnJ-qvJfswLfpjI1Mgu-N-JfIArPs-PftpLQefP-OPpAvKJQrQowuwskrgpiNrqQpnGYBIbuPQofQaiwpBGgoobwtrsIqgDwb-NXAPOlNnPoOwPARDPAREbpDEeEOIsDrGr8p4BDrMAsCsGfWEHEB1P1paHjsToIn6syr9tSv0eoFytkcQHSGTKQA6KYHsAkI0ZoK4EMA8CgDMdYAsdUCsYkJwhMAiGOpAFOukdhJMYQGcdgksaQGsaYdUZUHEFsZvQcacfMdCfCe8EiZ1M8Z7R8b8c9uAC2DoFD00vyvXC7IiBybycUrxLUAYBiBQHSE0F0ehIGqMZkbIoKaJCKcJASb2DKYNoYBABcuYCCHSFWqQHWrMopPpLSCGfWrAoRFODEFToQDEHYGuH8fyaEp4GpNiI0sCPafgvSCgAACt5TThDBXT2h3gxAoRzzn0zn2ALmumSAeCGBgaAs6mDHjHmm1mMRtaNGEwUBrHmBXnGmAmPntLWmsh2mXGOizhRB5BtUfmem+mBmVmyT5muqIB3h6DkG4yD6LSpGsAMaoAHqnqXqPA3qoB4dPrp96rdaGBEB0X2BMWizr7JzOzuzBDAbgbQaEBwbIboaCS4aEakaUaig9B0aDrMAAAoYAMQzgJwegUlhAfIEIdW+wRAJV2wdgNV5VowX6hAelxl9Oj+llu+tl2wBIKA62hAbwu2mVxgaQDAKVh23GxAQYf09Q-IfIDQfbbQyBPyVmDQVYvyUUz1kmem4oYoP1pVjAkV6m8BemjQaoHg1mYm-gvQYoZm0oRQiN1mTN8N9N711Nv1uNyM6oamqNkV-IHNsN8N5mgNtg8U4oZNn1tN2tvgj1ngxt8tooMtvg9kvQStutoNkNt19txtkdj1r1wdhtum3tngvQMt1Yit-1ttidgt31tWrih2h1pK52qVhpr2-AQxg9z2vi9Shq+Z8ACAqx7qmkn8oi-F7y1Z7Ssy-SuSoykyngF9iyqylmQkEAey+55ytyjyzAUYIQMx06vEI69R2S0QIII9pK7yrJ9GpDhD-dn272-d09x9oO0y3S19wy4y59-D7910v5FoOFjRoD9yzyrJ9DrDxA+wMx6JgLeiEADAvi+jzKgASUMBgAuejsJnaGYG6BClaXoBmFKs48yr4ouA1vubUBAA2VFI8B0erEsEMFMckGUCEESGYF4DQDSDEAAAFmBwONs3hNqtThmMDhBBmMB9PDPbnTPzOAtLO1RzgxBbPwOcAkAMAMC0O9GUPXg6Ogvfb0PuLD30bpBcmRdkPsr+KNbgnXGaMkn8ZQQqrHLBBYnHHkvEmPHcIMuZSFHayTqfAwTCvJCn3ESwWIhKvMulKggCIQgCJeB7AwT3bRqPmpAonvBF6LT4X7A-BeAkBbBRnEB9OuB0gGzk7GrKTqMWZ0Ij89tbYdFp9Z8L8FccMq0b9l9Y1V9xF18UkS9JMnsd9mYzZ0Iv8QDSIwDN1FuaIP5gDpU2I7uFuzYcZLiVvaRSYp5G9+kbdFdW9ldBNHdDMH8jvnU+dHsBdnsLusZ6plupc+Yn4-vz8Afm9mcI0QeHc79wfu8Xkn9tcX8y84eqFzprvpVfv1UWZEenv3MGZf8ylghr4vvkec4HYjtNv59s8ps2dLEwe5tbti8JMoNt9idmfzYa8s4VMJ5Of-uzVMer9gfduO8V978CenVmsHtCdPd7uk4OZKfH4BY3v-4WZk4AdPsf5J4aezY8k2ezcoxGFDk1v09R1yteNJ0cfb9O8Ne18e8N8TuxezuJeclAFyU9jj9ne1MNuMfL8gfsfVeBe8ehfNdjvRf+c9cr0WZ7f-dnv90uH9flEI-6JI8PMmeRVNkAVJdHeadukz8rc4+tuF8+f29k-ff8f-fCfA+M+Yes-N1iUAUkfa-pd6-Ed0fFf4-tuqtc81f9u-fDuA-0-ofdeYNfkFVq-ocy+alPNqNB-tlLfv81Ur1j1s1TC9sDs3eyseNTsVfqs5-60F+MUl+oeWsB89e9-RVgjh-a86-DlA1Y+k-Zvrz1Zxt8JkHfVPo-h74r93+a-NZKfx7RG8gcFfDNN-3p6A4L0KAmjHRhsxMYa+v-UfjKktwaYm+PPL3kn3AHq9O+i-bvsvzf4e44Ba2TrLgNcxU4R+J+MfvTgn5lop+LfUAaDxT7op5sRPTfKd1h7ncUIzmEaonm35EDTeL2ZgVhUP4gFj+P2XzL7iBIgJJ8def-sQIzwe9b+ife-u3yoGQDIe2vfvAwPawKDfsGg6Xn4inwADIs3PLPOQOMGUD5+1A5-rQNf469YB1gpgbYPDxIDMB8gwIeoPDzKDVUNDd-P-jFzn9ke4KGfM4NIGuC7c7g21J4LMEv8LBOuKwW-j-zD4w8m2ewZ0lPzj9G+QAsgekNn4mCshQg4XiIKD6Z9B8MeIofEJCGgEh8oeeIVEKjxYCP81efATLz-7T49B7vG-i3iMG1CPBj-LwcIOgH0DX8ZPOcIMLHw-8RhhAsYQ3xIFVC0h1+DIbOi3hP8FhdAvwfkJWHug1hMg-PkUmjybprhfQu4YemOIcwJCCBaQkQVkLmEGC2hJQrMVULqFNChyBwukH3KvDiCkhYwtAWoI-CFCKhboKKRsLAiVC4I24u8KkLkFggaAyPnIQYKYEsiVhPyFgWBFdEwRPRN4UYU+FBBgisI2gr8NBGIjkRdhVERSKqJBET0-abwtcVoa3FAitIy4pgWKCEjviGxZIqkV2bxFQRbIiUTETiKsYCRPIhiuKOqKTEpRIovAvMV6LnFaiWg8lqUUOK8iVRfRHUZ0UNHKjKigRHYqYR9bmiIRVo60UfhmJKj7R4xU0SsQOKiibixo04o6P7SrEARMo8YtaNYzEiXRtxe8s8WurIYQSbIyMQCXeKmFYxWorYqMEWZgBUKAAUScDMcPiXIzInoDtF8i3C6YrMTmNSasYyRp9fkniDLpikJSODYrkIBrqKllSqpGsq3R1Id1DS+Qfer3UArWl8gtpe0o2OXpD03SHpdepPVzI7056fYpeivRTJTjsyW9GehgT3qjj+ut9LwIQyvoaksGu4yBieVOjANLy15V+vPWZbHjJB11M8Qg3-qjjAGAgU8XA3PFCjLxRrY8WeVvGvj7xSDJlig0YYPkfy+DV8kdXrIqAvyj5UCZgwgnYNiG4FBhmQ1YY4VKG+FGIXQ0QmoMWGaQVCRw2SCF8AJtJcZtnVZLslOS97bJjh0CbEdzKb7IjnhzomEct0GJLYFR3yD2BeAQQdrp7WQIDcLGkgEQAh2C4iBkOnXZDvV3YDxdvakXaSVF3C5hcZJhAIAA
+
+ [32m✓[39m src/tests/ui/pages/stripe-payment-entry-page.test.ts [2m([22m[2m32 tests[22m[2m)[22m[32m 291[2mms[22m[39m
+ [32m✓[39m src/tests/paddle/paddle-service.test.ts [2m([22m[2m60 tests[22m[2m)[22m[32m 86[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/purchase-operation-helper.test.ts [2m([22m[2m42 tests[22m[2m)[22m[32m 82[2mms[22m[39m
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mreturns workflows list successfully
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/someAppUserId/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mencodes app user ID in the URL
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/user%20with%20spaces/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mthrows an error if the backend returns a server error
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/someAppUserId/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mthrows a known error if the backend returns invalid API key error
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/someAppUserId/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mthrows unknown error if the backend returns a request error with unknown error code in body
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/someAppUserId/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mthrows unknown error if the backend returns a request error without error code in body
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/someAppUserId/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+[90mstderr[2m | src/tests/networking/backend.test.ts[2m > [22m[2mgetWorkflows request[2m > [22m[2mthrows network error if cannot reach server
+[22m[39m[MSW] Found a redundant usage of query parameters in the request handler URL for "GET http://localhost:8000/v1/subscribers/someAppUserId/workflows?type=paywall". Please match against a path instead and access query parameters using "new URL(request.url).searchParams" instead. Learn more: https://mswjs.io/docs/recipes/query-parameters
+
+ [32m✓[39m src/tests/ui/paddle-purchases-ui.test.ts [2m([22m[2m39 tests[22m[2m)[22m[33m 480[2mms[22m[39m
+ [32m✓[39m src/tests/networking/backend.test.ts [2m([22m[2m125 tests[22m[2m)[22m[32m 184[2mms[22m[39m
+ [32m✓[39m src/tests/purchase.offerings.test.ts [2m([22m[2m48 tests[22m[2m)[22m[32m 170[2mms[22m[39m
+Warning: A vi.mock("../../helpers/uuid-helper") call in "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/worktrees/purchases-js/src/tests/behavioral-events/events-tracker.test.ts" is not at the top level of the module. Although it appears nested, it will be hoisted and executed before any tests run. Move it to the top level to reflect its actual execution order. This will become an error in a future version.
+See: https://vitest.dev/guide/mocking/modules#how-it-works
+ [32m✓[39m vega/src/tests/amazon/amazon-billing-wrapper.test.ts [2m([22m[2m88 tests[22m[2m)[22m[33m 578[2mms[22m[39m
+ [32m✓[39m src/tests/entities/customer-info.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+[90mstdout[2m | src/tests/main.test.ts
+[22m[39m[Purchases] [EventsTracker] Flush response: 200
+
+ [32m✓[39m src/tests/main.test.ts [2m([22m[2m84 tests[22m[2m)[22m[33m 624[2mms[22m[39m
+ [32m✓[39m src/tests/behavioral-events/events-tracker.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 77[2mms[22m[39m
+ [32m✓[39m src/tests/stripe/stripe-billing-apple-pay-purchase.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m src/tests/stripe-billing-quick-purchase.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 118[2mms[22m[39m
+Warning: A vi.mock("../behavioural-events/sdk-event-context") call in "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/worktrees/purchases-js/src/tests/purchase.events.test.ts" is not at the top level of the module. Although it appears nested, it will be hoisted and executed before any tests run. Move it to the top level to reflect its actual execution order. This will become an error in a future version.
+See: https://vitest.dev/guide/mocking/modules#how-it-works
+ [32m✓[39m src/tests/ui/stripe-checkout-purchases-ui.test.ts [2m([22m[2m17 tests[22m[2m)[22m[33m 344[2mms[22m[39m
+ [32m✓[39m src/tests/behavioral-events/paywall-event.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/tests/purchase.virtual-currencies.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 67[2mms[22m[39m
+ [32m✓[39m src/tests/ui/purchases-ui.test.ts [2m([22m[2m16 tests[22m[2m)[22m[33m 600[2mms[22m[39m
+ [32m✓[39m src/tests/change-product.test.ts [2m([22m[2m24 tests[22m[2m)[22m[33m 839[2mms[22m[39m
+ [32m✓[39m src/tests/locale/locale.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 148[2mms[22m[39m
+[90mstderr[2m | src/tests/purchase.events.test.ts[2m > [22m[2mPurchases with unreachable eventsURL[2m > [22m[2mgetOfferings succeeds when eventsURL is unreachable
+[22m[39m[MSW] Warning: intercepted a request without a matching request handler:
+
+  • POST http://unreachable.local:9999/v1/events
+
+  • Request body: {"events":[{"id":"c1365463-ce59-4b83-b61b-ef0d883e9047","timestamp_ms":1792659929733,"type":"web_billing","event_name":"sdk_initialized","app_user_id":"someAppUserId","context":{"source":"sdk","rc_source":"rcSource"},"properties":{"mode":"sdk_checkout","trace_id":"c1365463-ce59-4b83-b61b-ef0d883e9047"}}]}
+
+If you still wish to intercept this unhandled request, please create a request handler for it.
+Read more: https://mswjs.io/docs/getting-started/mocks
+
+ [32m✓[39m src/tests/purchase.events.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 119[2mms[22m[39m
+ [32m✓[39m src/tests/present-paywall.events.test.ts [2m([22m[2m33 tests[22m[2m)[22m[33m 1996[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/logger.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/tests/purchase.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 281[2mms[22m[39m
+ [32m✓[39m src/tests/present-paywall.test.ts [2m([22m[2m14 tests[22m[2m)[22m[33m 788[2mms[22m[39m
+ [32m✓[39m src/tests/paddle/paddle-discount-preview.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/paywall-package-info-helpers.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/in-memory-cache.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/purchase-option-price-helper.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/behavioral-events/flush-manager.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/simulated-store-purchase-helper.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/price-labels.test.ts [2m([22m[2m24 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/tests/networking/endpoints.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m src/tests/entities/virtual-currencies.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/apple-touch-icon.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32m✓[39m src/tests/purchase.external.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 68[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/discount-breakdown-helper.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/entities/offerings.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/paywall-context-packages-helpers.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m vega/src/tests/amazon/vega-device-cache.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/tests/custom-paywall-impression.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 63[2mms[22m[39m
+ [32m✓[39m src/tests/payrails/payrails-service.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/purchase.paddle-discounts.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 60[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/duration-helper.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/browser-globals.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/simulated-store-post-receipt-helper.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/checkout-consent-helper.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/purchase.simulated.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 82[2mms[22m[39m
+ [32m✓[39m src/tests/entities/virtual-currency.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/branding-appearance-helper.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/tests/wallet-button-render.test.ts [2m([22m[2m5 tests[22m[2m)[22m[33m 481[2mms[22m[39m
+ [32m✓[39m vega/src/tests/vega.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 57[2mms[22m[39m
+ [32m✓[39m src/tests/behavioral-events/custom-paywall-impression-event.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/tests/behavioral-events/sdk-event-context.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m src/tests/theme/utils.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/checkout-session-purchase-option-helper.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/complete-workflow-navigate-url.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/utm-params.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m vega/src/tests/purchases.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 79[2mms[22m[39m
+ [32m✓[39m src/tests/theme/simulated-store-modal.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/purchases-factory.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/tests/ui/express-purchase-button/stripe-helpers.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/string-helpers.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/api-key-helper.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/locale/free-trial-duration.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/paywall-price-helper.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m src/tests/helpers/validators.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32m✓[39m src/tests/ui/pages/success-page.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m68 passed[39m[22m[90m (68)[39m
+[2m      Tests [22m [1m[32m1191 passed[39m[22m[90m (1191)[39m
+[2m   Start at [22m 06:05:25
+[2m   Duration [22m 7.33s[2m (transform 10.19s, setup 530ms, import 26.73s, tests 9.13s, environment 17.99s)[22m
+

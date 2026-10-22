@@ -1,0 +1,37 @@
+[
+  {
+    "file": "README.md",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/README.md"
+  },
+  {
+    "file": "source.zip",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/source.zip"
+  },
+  {
+    "file": "before.png",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/before.png"
+  },
+  {
+    "file": "fixed.png",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/fixed.png"
+  },
+  {
+    "file": "before.mp4",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/before.mp4"
+  },
+  {
+    "file": "fixed.mp4",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/fixed.mp4"
+  },
+  {
+    "file": "manifest.json",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/manyoneek/cli/bae66c49909f95bc1940b499e23516c0f8f2f903/qa/reproductions/2026-10-22/cli/manifest.json"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "corepack",
+    "pnpm",
+    "test"
+  ],
+  "cwd": "runs/2026-10-22/worktrees/purchases-js",
+  "exit": 0,
+  "timedOut": false,
+  "seconds": 9.13,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/js-baseline.log"
+}

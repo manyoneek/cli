@@ -1,0 +1,4 @@
+
+> @revenuecat/purchases-js@1.72.0 test:typecheck /Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/worktrees/purchases-js
+> tsc --project tsconfig.test.json
+
