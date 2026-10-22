@@ -1,0 +1,16 @@
+=== RUN   TestProfilesRespectProfileFlag
+=== RUN   TestProfilesRespectProfileFlag/show_flag
+=== RUN   TestProfilesRespectProfileFlag/list_flag
+=== RUN   TestProfilesRespectProfileFlag/show_positional_control
+=== RUN   TestProfilesRespectProfileFlag/show_active_control
+=== RUN   TestProfilesRespectProfileFlag/list_active_control
+=== RUN   TestProfilesRespectProfileFlag/positional_overrides_flag_control
+--- PASS: TestProfilesRespectProfileFlag (0.01s)
+    --- PASS: TestProfilesRespectProfileFlag/show_flag (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/list_flag (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/show_positional_control (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/show_active_control (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/list_active_control (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/positional_overrides_flag_control (0.00s)
+PASS
+ok  	github.com/revenuecat/cli/internal/cli	0.536s

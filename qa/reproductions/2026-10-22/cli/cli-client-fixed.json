@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "runs/2026-10-22/cli-revalidation/reproduce.py",
+    "runs/2026-10-22/cli-revalidation/rc-fixed",
+    "--output",
+    "runs/2026-10-22/cli-revalidation/fixed-results.json"
+  ],
+  "cwd": ".",
+  "exit": 0,
+  "timedOut": false,
+  "seconds": 0.73,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/cli-client-fixed.log"
+}

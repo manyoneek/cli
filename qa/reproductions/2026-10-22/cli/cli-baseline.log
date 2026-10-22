@@ -1,0 +1,15 @@
+go: downloading go1.26.10 (darwin/arm64)
+?   	github.com/revenuecat/cli/cmd/rc	[no test files]
+ok  	github.com/revenuecat/cli/internal/api	0.296s
+ok  	github.com/revenuecat/cli/internal/appleconnect	0.310s
+ok  	github.com/revenuecat/cli/internal/buildinfo	0.212s
+ok  	github.com/revenuecat/cli/internal/cli	0.651s
+ok  	github.com/revenuecat/cli/internal/config	0.261s
+ok  	github.com/revenuecat/cli/internal/google	0.287s
+ok  	github.com/revenuecat/cli/internal/httpx	0.250s
+ok  	github.com/revenuecat/cli/internal/output	0.242s
+ok  	github.com/revenuecat/cli/internal/paywallai	0.255s
+ok  	github.com/revenuecat/cli/internal/rico	0.345s
+ok  	github.com/revenuecat/cli/internal/sse	0.238s
+ok  	github.com/revenuecat/cli/internal/tui	0.302s
+ok  	github.com/revenuecat/cli/scripts/checkdepage	0.217s

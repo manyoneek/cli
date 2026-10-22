@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+    "build",
+    "-o",
+    "../../cli-revalidation/rc-fixed",
+    "./cmd/rc"
+  ],
+  "cwd": "runs/2026-10-22/worktrees/cli",
+  "exit": 0,
+  "timedOut": false,
+  "seconds": 2.03,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/cli-build-fixed.log"
+}

@@ -1,0 +1,37 @@
+=== RUN   TestProfilesRespectProfileFlag
+=== RUN   TestProfilesRespectProfileFlag/show_flag
+    profile_precedence_test.go:47: profile = qa-base, want qa-chosen; output: {
+          "data": {
+            "api_key": "",
+            "base_url": "",
+            "profile": "qa-base",
+            "project_id": "proj_local_base"
+          },
+          "schema_version": 1
+        }
+    profile_precedence_test.go:55: project_id = proj_local_base, want proj_local_chosen
+=== RUN   TestProfilesRespectProfileFlag/list_flag
+    profile_precedence_test.go:47: active = qa-base, want qa-chosen; output: {
+          "data": {
+            "active": "qa-base",
+            "profiles": [
+              "qa-base",
+              "qa-chosen"
+            ]
+          },
+          "schema_version": 1
+        }
+=== RUN   TestProfilesRespectProfileFlag/show_positional_control
+=== RUN   TestProfilesRespectProfileFlag/show_active_control
+=== RUN   TestProfilesRespectProfileFlag/list_active_control
+=== RUN   TestProfilesRespectProfileFlag/positional_overrides_flag_control
+--- FAIL: TestProfilesRespectProfileFlag (0.01s)
+    --- FAIL: TestProfilesRespectProfileFlag/show_flag (0.00s)
+    --- FAIL: TestProfilesRespectProfileFlag/list_flag (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/show_positional_control (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/show_active_control (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/list_active_control (0.00s)
+    --- PASS: TestProfilesRespectProfileFlag/positional_overrides_flag_control (0.00s)
+FAIL
+FAIL	github.com/revenuecat/cli/internal/cli	0.575s
+FAIL

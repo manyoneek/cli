@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "runs/2026-10-22/cli-revalidation/reproduce.py",
+    "runs/2026-10-22/cli-revalidation/rc-before",
+    "--output",
+    "runs/2026-10-22/cli-revalidation/before-results.json"
+  ],
+  "cwd": ".",
+  "exit": 1,
+  "timedOut": false,
+  "seconds": 0.75,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/cli-client-before.log"
+}

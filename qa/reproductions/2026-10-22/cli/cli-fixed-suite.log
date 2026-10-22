@@ -1,0 +1,14 @@
+?   	github.com/revenuecat/cli/cmd/rc	[no test files]
+ok  	github.com/revenuecat/cli/internal/api	0.253s
+ok  	github.com/revenuecat/cli/internal/appleconnect	0.297s
+ok  	github.com/revenuecat/cli/internal/buildinfo	0.247s
+ok  	github.com/revenuecat/cli/internal/cli	0.640s
+ok  	github.com/revenuecat/cli/internal/config	(cached)
+ok  	github.com/revenuecat/cli/internal/google	(cached)
+ok  	github.com/revenuecat/cli/internal/httpx	0.238s
+ok  	github.com/revenuecat/cli/internal/output	0.228s
+ok  	github.com/revenuecat/cli/internal/paywallai	0.239s
+ok  	github.com/revenuecat/cli/internal/rico	0.238s
+ok  	github.com/revenuecat/cli/internal/sse	(cached)
+ok  	github.com/revenuecat/cli/internal/tui	0.261s
+ok  	github.com/revenuecat/cli/scripts/checkdepage	(cached)

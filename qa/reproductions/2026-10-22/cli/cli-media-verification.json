@@ -1,0 +1,40 @@
+{
+  "before": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 1060,
+          "nb_frames": "377"
+        }
+      ],
+      "format": {
+        "duration": "12.566667"
+      }
+    },
+    "capturedFrames": 13,
+    "uniqueCapturedFrames": 12
+  },
+  "fixed": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 1060,
+          "nb_frames": "376"
+        }
+      ],
+      "format": {
+        "duration": "12.533333"
+      }
+    },
+    "capturedFrames": 13,
+    "uniqueCapturedFrames": 12
+  }
+}

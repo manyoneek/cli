@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-22",
+  "upstream": "0381e9169458c084fa78dd23d6fcceb7f5b1022d",
+  "fix": "6bcc94ecafd91af8af155ca2754729f5c7df74fb",
+  "platform": "macOS arm64",
+  "go": "1.26.10",
+  "tests": {
+    "unitBefore": {
+      "passed": 4,
+      "failed": 2
+    },
+    "unitFixed": {
+      "passed": 6,
+      "failed": 0
+    },
+    "clientBefore": {
+      "passed": 4,
+      "failed": 2
+    },
+    "clientFixed": {
+      "passed": 6,
+      "failed": 0
+    },
+    "baselineSuite": "13 packages passed",
+    "fixedSuite": "13 packages passed",
+    "vet": "passed"
+  },
+  "captured": "Actual compiled CLI subprocesses presented in the local viewer; no simulated command output.",
+  "explainerDate": "2026-10-20",
+  "explainer": "https://github.com/user-attachments/assets/bba17b76-72b0-4fe4-a8fc-ca59113ae12f",
+  "hashes": {
+    "cli-related-pr-117.json": "0df8d8c799b8f75fb689073445f999e65a44e84775418ef32960fb95bf973046",
+    "cli-media-verification.json": "53f1a4a39a0f47cf7aedf187de700ab6d3e8ab0ce9924b08536d05d14b2fe8ed",
+    "before.png": "5090ddcf796138566c09af66bdae4e0ec78fdab6482a0ff5d68a8c7fb2b3f3ce",
+    "go.mod": "cf903a9022427148ba156d5df2b1e5293d47f2c23888973a5848062d437ff65f",
+    "profile_precedence_test.go": "d70db3f8a631cf45de46b4d05aa2c53b9915f500806f3ae9b35366ebe30ee3cb",
+    "fix.patch": "b848db8be33c5828094a26e2150ddf2d571ca0e53078d46672c47ae65158ed72",
+    "cli-client-before.log": "eb760c1248035bb38638cdea2c698f2818364befc2919a2e6c7e7e8e4c96983d",
+    "cli-focused-before.log": "c6904b1423a10b505f016fe494df02aa2e09c6d53ef8e96c2e7d67cadda69d9a",
+    "cli-build-fixed.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cli-related-pr-85.json": "0330bd4cf3b0e944f91e64c22b886884853e9624dd3088dbf40cd87041fc5c03",
+    "fixed-results.json": "482a567d8bdd187525c3166b93987bfcb2dcf240ef42242771ce8d24fba29448",
+    "fixed.mp4": "44ced530150571e30ee01c96ef2421db475264a02549e139a31e082e322ff8d5",
+    "cli-duplicate-search.json": "906dff48b2f912ba02c4b6310d4b412f7dedf2fcc6d9d48e59f1f48957e4d6a9",
+    "reproduce.py": "d2f094fde7850370ef98e3b57c650a8f2f7f257c16188494c56e996313042c91",
+    "before-results.json": "eb760c1248035bb38638cdea2c698f2818364befc2919a2e6c7e7e8e4c96983d",
+    "source.zip": "d8dd4de51927d3e8f84005cfd66e7dd50e3889a4ed6cede89f7a4b377d660892",
+    "cli-client-before.json": "f971f8b847ffe07937b0e0347b5d7517779a94a377dd4321efee195feae00b11",
+    "cli-baseline.log": "b58d43eab0c0dbc1628617d8a873625ed8aaecf0a0ac11442f008872de7f0101",
+    "cli-fetch.log": "1449f62766b3104d408fc1278df5c7d64f7f1965344a19bf3ba7a751e29ab594",
+    "fixed-recorded-results.json": "fc74377387567f89982623c0452aab71676f232ea2ca171570f788f0e2c5bad8",
+    "cli-build-fixed.json": "074904026103dea51e9a27448f97ab3505d81af65f0fc020e6423edfd956083d",
+    "go.sum": "e154de8ec891c6b7bf0d25116e690e7ccc7e50f4dd3fdb8e776ca05919ff9d9c",
+    "explainer-playback.json": "840bf5ae3c66f7f38d611b51b35c6edbca6dac2f9ef6994866955ff64d67a8d2",
+    "cli-duplicate-issues.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "before-recorded-results.json": "5cd3966f79e1a5fefa45acf766705352b772ce028a3b4c36e913f46e62b7bfda",
+    "cli-build-before.json": "a2fcb38282e5781b28313578a0d8cad3f665a0116b8d1287f8c7277ad72905cc",
+    "cli-client-fixed.json": "7b1525c9c85f99fa8e9e8cb4621e2de8e4a795a1531f6f519ce55b18f562a9cf",
+    "cli-focused-before.json": "6c4bce50efbaeeb9d5f4566ed54c14cdb51e05c90545c419b8943df634ffd8b0",
+    "cli-focused-fixed.json": "a771edd2afadecfd2a0950b6418dab3366b0a00780fe6b12222212c7eb3ff6ed",
+    "cli-fixed-suite.log": "dc635ec16628090481ff43a51502928c0e45a0fbac2267e461797045e42493fd",
+    "cli-fork-sync.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cli-related-pr-97.json": "fe8f3e6f33e97c3349db612f8b76860db54e55b1e1988603d092dfe7d236eb2e",
+    "cli-client-fixed.log": "482a567d8bdd187525c3166b93987bfcb2dcf240ef42242771ce8d24fba29448",
+    "cli-baseline.json": "9522d9bcb495f092cef446e4609eaea0106b228ca304f9e2978c39d4059ab6d6",
+    "cli-duplicate-prs.json": "1a1ecc35813071f0778a4f8145e27e4f711fbbce1a73513e53a6e023923591a5",
+    "reproduce-all.py": "f5e7a3233c1a68ee57e22bf5d72fb921a54f39444854f935eee315655eba4f1a",
+    "before.mp4": "c04cda5da6de3fb60d494f2f7e7cc32ea3656cdbc752ce3282579591a35f5cbd",
+    "cli-focused-fixed.log": "7dc7d8a13fc1d1a6c2dbf6fa0cacda7c13c1db0eb4bb0061ae2d3dba4ddb570b",
+    "cli-vet.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cli-related-pr-163.json": "ce88a51ffcff8f231b7e448630000c4f8ec4a7927fa6a21ad1aad3fbbd819f33",
+    "cli-related-pr-114.json": "6cd25efba7333816f815a04683a47ec0b47f36259c8e70aa92d77cae55c86bae",
+    "cli-vet.json": "8d75f34dc2218655cffc5a23155ad433867a6c39678ed3baa002d0e20d8a99fb",
+    "cli-fixed-suite.json": "e3d474fd60f2d04ce4db32d64d58db8f16e0bda7a1b9595860fc65e7728e11b9",
+    "cli-build-before.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fixed.png": "59f92308e510aa1b34453a215736fc978cb1b39a9671d655ba7799cd53ed41cc"
+  }
+}

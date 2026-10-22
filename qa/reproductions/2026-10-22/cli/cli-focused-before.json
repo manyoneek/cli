@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+    "test",
+    "./internal/cli",
+    "-run",
+    "TestProfilesRespectProfileFlag",
+    "-count=1",
+    "-v"
+  ],
+  "cwd": "runs/2026-10-22/worktrees/cli",
+  "exit": 1,
+  "timedOut": false,
+  "seconds": 3.02,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/cli-focused-before.log"
+}

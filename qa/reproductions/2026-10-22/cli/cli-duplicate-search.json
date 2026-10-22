@@ -1,0 +1,125 @@
+[
+  {
+    "query": "repo:RevenueCat/cli \"profiles show\" in:title,body,comments",
+    "total": 4,
+    "incomplete": false,
+    "items": [
+      {
+        "number": 85,
+        "url": "https://github.com/RevenueCat/cli/pull/85",
+        "title": "Stop listing Rico state files as phantom profiles",
+        "state": "closed"
+      },
+      {
+        "number": 117,
+        "url": "https://github.com/RevenueCat/cli/pull/117",
+        "title": "feat(config): per-directory project binding via .revenuecat.json",
+        "state": "closed"
+      },
+      {
+        "number": 5,
+        "url": "https://github.com/RevenueCat/cli/pull/5",
+        "title": "feat: CLI foundation \u2014 command tree, config, and v2 API client",
+        "state": "closed"
+      },
+      {
+        "number": 7,
+        "url": "https://github.com/RevenueCat/cli/pull/7",
+        "title": "docs: README, contributor docs, and CI workflow",
+        "state": "closed"
+      }
+    ]
+  },
+  {
+    "query": "repo:RevenueCat/cli \"profiles list\" in:title,body,comments",
+    "total": 5,
+    "incomplete": false,
+    "items": [
+      {
+        "number": 85,
+        "url": "https://github.com/RevenueCat/cli/pull/85",
+        "title": "Stop listing Rico state files as phantom profiles",
+        "state": "closed"
+      },
+      {
+        "number": 117,
+        "url": "https://github.com/RevenueCat/cli/pull/117",
+        "title": "feat(config): per-directory project binding via .revenuecat.json",
+        "state": "closed"
+      },
+      {
+        "number": 7,
+        "url": "https://github.com/RevenueCat/cli/pull/7",
+        "title": "docs: README, contributor docs, and CI workflow",
+        "state": "closed"
+      },
+      {
+        "number": 146,
+        "url": "https://github.com/RevenueCat/cli/pull/146",
+        "title": "docs: ready docs, README, and templates for going public",
+        "state": "closed"
+      },
+      {
+        "number": 5,
+        "url": "https://github.com/RevenueCat/cli/pull/5",
+        "title": "feat: CLI foundation \u2014 command tree, config, and v2 API client",
+        "state": "closed"
+      }
+    ]
+  },
+  {
+    "query": "repo:RevenueCat/cli \"profile flag\" in:title,body,comments",
+    "total": 8,
+    "incomplete": false,
+    "items": [
+      {
+        "number": 114,
+        "url": "https://github.com/RevenueCat/cli/pull/114",
+        "title": "feat(auth): name the active credential's source in auth status",
+        "state": "closed"
+      },
+      {
+        "number": 184,
+        "url": "https://github.com/RevenueCat/cli/pull/184",
+        "title": "Clarify product store-state access after API rejection",
+        "state": "closed"
+      },
+      {
+        "number": 97,
+        "url": "https://github.com/RevenueCat/cli/pull/97",
+        "title": "fix(auth): stop RC_API_KEY from shadowing an OAuth login (DX-940)",
+        "state": "closed"
+      },
+      {
+        "number": 134,
+        "url": "https://github.com/RevenueCat/cli/pull/134",
+        "title": "feat(google): add Google service package for Play setup",
+        "state": "closed"
+      },
+      {
+        "number": 7,
+        "url": "https://github.com/RevenueCat/cli/pull/7",
+        "title": "docs: README, contributor docs, and CI workflow",
+        "state": "closed"
+      },
+      {
+        "number": 163,
+        "url": "https://github.com/RevenueCat/cli/pull/163",
+        "title": "fix(auth): `RC_API_KEY` outranks the stored OAuth login",
+        "state": "closed"
+      },
+      {
+        "number": 61,
+        "url": "https://github.com/RevenueCat/cli/pull/61",
+        "title": "docs(cli): normalize all command help to RevenueCat's product voice",
+        "state": "closed"
+      },
+      {
+        "number": 117,
+        "url": "https://github.com/RevenueCat/cli/pull/117",
+        "title": "feat(config): per-directory project binding via .revenuecat.json",
+        "state": "closed"
+      }
+    ]
+  }
+]

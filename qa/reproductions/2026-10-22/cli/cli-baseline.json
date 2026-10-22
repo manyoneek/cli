@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-16/toolchains/go/bin/go",
+    "test",
+    "./..."
+  ],
+  "cwd": "runs/2026-10-22/worktrees/cli",
+  "exit": 0,
+  "timedOut": false,
+  "seconds": 23.61,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/cli-baseline.log"
+}
