@@ -1,4 +1,25 @@
-Traceback (most recent call last):
-  File "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/cli-package-check/reproduce-all.py", line 14, in <module>
-    assert unit.returncode == (1 if mode == 'before' else 0)
-AssertionError
+patching file 'internal/cli/profiles.go'
+?   	github.com/revenuecat/cli/cmd/rc	[no test files]
+ok  	github.com/revenuecat/cli/internal/api	0.299s
+ok  	github.com/revenuecat/cli/internal/appleconnect	0.323s
+ok  	github.com/revenuecat/cli/internal/buildinfo	0.253s
+ok  	github.com/revenuecat/cli/internal/cli	0.650s
+ok  	github.com/revenuecat/cli/internal/config	0.297s
+ok  	github.com/revenuecat/cli/internal/google	0.321s
+ok  	github.com/revenuecat/cli/internal/httpx	0.281s
+ok  	github.com/revenuecat/cli/internal/output	0.250s
+ok  	github.com/revenuecat/cli/internal/paywallai	0.271s
+ok  	github.com/revenuecat/cli/internal/rico	0.285s
+ok  	github.com/revenuecat/cli/internal/sse	0.184s
+ok  	github.com/revenuecat/cli/internal/tui	0.249s
+ok  	github.com/revenuecat/cli/scripts/checkdepage	0.184s
+{
+  "before": {
+    "passed": 4,
+    "failed": 2
+  },
+  "fixed": {
+    "passed": 6,
+    "failed": 0
+  }
+}

@@ -8,7 +8,7 @@ shutil.copy2(root / 'profile_precedence_test.go', sdk / 'internal/cli/profile_pr
 results = {}
 for mode in ['before', 'fixed']:
     if mode == 'fixed':
-        subprocess.run(['git', 'apply', str(root / 'fix.patch')], cwd=sdk, check=True)
+        subprocess.run(['patch', '-p1', '-i', str(root / 'fix.patch')], cwd=sdk, check=True)
     with (root / f'{mode}-unit.log').open('w') as output:
         unit = subprocess.run(['go', 'test', './internal/cli', '-run', 'TestProfilesRespectProfileFlag', '-count=1', '-v'], cwd=sdk, stdout=output, stderr=subprocess.STDOUT)
     assert unit.returncode == (1 if mode == 'before' else 0)

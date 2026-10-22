@@ -6,7 +6,7 @@ Verified October 22, 2026 on macOS arm64. Upstream: `0381e9169458c084fa78dd23d6f
 
 ## Reproduce
 
-Unzip `source.zip` into a fresh directory and run `python3 reproduce-all.py`. Requires Python 3, Git and Go 1.26.10 (or a Go installation that can download the version in go.mod). It builds both versions and executes the same six credential-free local command checks. Expected: four pass and two fail before; all six pass after. The Go regression has the same results. Full repository suites and go vet passed; Linux/Windows were not tested.
+Unzip `source.zip` into a fresh directory and run `python3 reproduce-all.py`. Requires Python 3, patch and Go 1.26.10 (or a Go installation that can download the version in go.mod). It builds both versions and executes the same six credential-free local command checks. Expected: four pass and two fail before; all six pass after. The Go regression has the same results. Full repository suites and go vet passed; Linux/Windows were not tested.
 
 The viewer records actual subprocess stdout, exit codes and assertions. `before.mp4` and `fixed.mp4` are fresh continuous captures. Screenshots and JSON logs are alongside them. The [49-second explainer](https://github.com/user-attachments/assets/bba17b76-72b0-4fe4-a8fc-ca59113ae12f) is preserved from October 20; its footage remains dated October 20. The current source and before/after results are this directory's October 22 evidence.
 
