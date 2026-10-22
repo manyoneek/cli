@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "reproduce-all.py"
+  ],
+  "cwd": "runs/2026-10-22/cli-package-check",
+  "exit": 1,
+  "timedOut": false,
+  "seconds": 8.98,
+  "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-22/logs/cli-package-check.log"
+}
